@@ -10,13 +10,17 @@ The objective of this pill is to put the basic foundations of SASS into practice
 
 This repository contains the files and folders detailed below:
 
-- **_index.php_**: main entrance point to the project, containing a description of the steps followed to complete the exercise with some classes used to run some tests on them.
-
-- **_assets_**: folder used to store the stylesheets needed during the realization of the project, including:
+- **_assets_**: folder used to store different elements needed during the realization of the project organized in sub-folders, including:
 
 - **_css_**: here it is stored the compiled version of the respective _.sass_ files.
 
+- **_img_**: images related with the design of both the login and the home views.
+
 - **_sass_**: stylesheets used during the completion of the exercise. After its compilation with the command _sass --watch "origin .sass file":"destination .css file"_, a usable version is created with the corresponding styles and the extension _.css_, which is renderable by the browser and referenced in the html files.
+
+- **_home.html_**: home view of the webpage, consisting on a navigation bar and a main section where people's posts are displayed.
+
+- **_login.html_**: login view of the webpage, consisting on some content arranged in two columns and a footer.
 
 ---
 

@@ -16,7 +16,7 @@ This repository contains the files and folders detailed below:
 
   - **_img_**: images related with the design of both the login and the home views.
 
-  - **_sass_**: stylesheets used during the completion of the exercise. After its compilation with the command _sass --watch "origin .sass file":"destination .css file"_, a usable version is created with the corresponding styles and the extension _.css_, which is renderable by the browser and referenced in the html files.
+  - **_sass_**: stylesheets used during the completion of the exercise. After its compilation with the command _`sass --watch "origin .sass file":"destination .css file"`_, a usable version is created with the corresponding styles and the extension _.css_, which is renderable by the browser and referenced in the html files.
 
 - **_home.html_**: home view of the webpage, consisting on a navigation bar and a main section where people's posts are displayed.
 

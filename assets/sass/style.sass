@@ -51,7 +51,7 @@ body
   align-content: center
 
 .main-content
-  width: 35%
+  width: 40%
   height: 100%
 
 // Left side
@@ -60,24 +60,21 @@ body
   position: relative
 
 // Images
-%img
-  position: absolute
-  bottom: 50%
-  transform: translateY(50%)
-
 .img-1
-  @extend %img
-  right: -4vw
-
   img
-    height: 62.5vh
+    height: 75%
+    position: absolute
+    left: 50%
+    bottom: 50%
+    transform: translate(-65%, 47.5%)
 
 .img-2
-  @extend %img
-  right: -9vw
-
   img
-    height: 65vh
+    height: 80%
+    position: absolute
+    left: 50%
+    bottom: 50%
+    transform: translate(-35%, 52.5%)
 
 // Right side
 .content-right
@@ -121,6 +118,8 @@ form input
     border: none
     border-radius: 4px
     background-color: rgba(0, 149, 246, 1)
+    &:hover
+      cursor: pointer
 
 .horizontal-division
   text-align: center

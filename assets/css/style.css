@@ -31,7 +31,7 @@ body {
 }
 
 .main-content {
-  width: 35%;
+  width: 40%;
   height: 100%;
 }
 
@@ -39,24 +39,20 @@ body {
   position: relative;
 }
 
-.img-2, .img-1 {
-  position: absolute;
-  bottom: 50%;
-  transform: translateY(50%);
-}
-
-.img-1 {
-  right: -4vw;
-}
 .img-1 img {
-  height: 62.5vh;
+  height: 75%;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-65%, 47.5%);
 }
 
-.img-2 {
-  right: -9vw;
-}
 .img-2 img {
-  height: 65vh;
+  height: 80%;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-35%, 52.5%);
 }
 
 .content-right {
@@ -103,6 +99,9 @@ form input[type=submit] {
   border: none;
   border-radius: 4px;
   background-color: #0095f6;
+}
+form input[type=submit]:hover {
+  cursor: pointer;
 }
 
 .horizontal-division {

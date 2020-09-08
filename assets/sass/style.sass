@@ -1,4 +1,6 @@
-// Variables
+// VARIABLES
+
+// Colours
 $testColor1: red
 $testColor2: blue
 $testColor3: orange
@@ -7,45 +9,82 @@ $testColor5: yellow
 $testColor6: green
 $testColor7: purple
 
+$bgColor: #fafafa
+$footerSectionsColor: #00376b
+
 // Fonts
 $font-stack-main: 'Roboto', sans-serif
 $font-stack-alt: Helvetica, Arial
 
-// Reset
+// RESET
 *
   margin: 0
   padding: 0
   box-sizing: border-box
 
-.wrapper
-  margin: 5vh auto
+// GENERAL LAYOUT
 
+// Background color
+body
+  background-color: $bgColor
+
+// Vertical margin
+.wrapper
+  margin: 2.5vh auto
+
+// Width and margin
 .container
   padding: 1rem
-  width: 90vw
+  width: 95vw
   margin: 0 auto
 
+// MAIN CONTENT
 .main-container
   background-color: $testColor1
-  height: 80vh
+  height: 85vh
   display: flex
   flex-direction: row
   flex-wrap: no-wrap
   justify-content: center
-  align-items: flex-start
+  align-items: center
   align-content: center
 
 .main-content
   width: 40%
+  height: 100%
 
+// Left side
+// Container
 .content-left
   background-color: $testColor2
+  position: relative
 
+// Images
+%img
+  position: absolute
+  bottom: 50%
+  transform: translateY(50%)
+
+.img-1
+  @extend %img
+  right: -4vw
+
+  img
+    height: 62.5vh
+
+.img-2
+  @extend %img
+  right: -9vw
+
+  img
+    height: 65vh
+
+// Right side
 .content-right
   background-color: $testColor3
 
+// FOOTER
 .footer-container
-  background-color: $testColor4
   font-family: $font-stack-main
   font-size: 0.8rem
   height: 10vh
@@ -57,13 +96,20 @@ $font-stack-alt: Helvetica, Arial
   align-items: center
 
 .footer-sections
-  background-color: $testColor5
+  text-align: center
+  width: 100%
 
-.footer-copyright
-  background-color: $testColor6
-  opacity: 0.7
-
+// List items
 ul li
   list-style-type: none
-  display: inline
-  margin: 0 0.3rem
+  display: inline-block
+  margin: 0 0.4rem
+  color: $footerSectionsColor
+
+  &:hover
+    cursor: pointer
+    font-weight: bold
+
+.footer-copyright
+  text-align: center
+  opacity: 0.6

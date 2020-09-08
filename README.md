@@ -22,6 +22,8 @@ This repository contains the files and folders detailed below:
 
 - **_login.html_**: login view of the webpage, consisting on some content arranged in two columns and a footer.
 
+- **_README.md_**: this file.
+
 ---
 
 ## ✒️ Authors

@@ -1,5 +1,6 @@
 // IMPORTS
 @import "variables"
+@import "footerLogin"
 
 // RESET
 *
@@ -19,7 +20,7 @@ body
 .wrapper
   margin: 2.5vh auto
 
-// Width and margin
+// Container width, padding and no-margin
 .container
   padding: 1rem
   width: 95vw
@@ -150,33 +151,3 @@ form input
 
   img
     width: 10vw
-
-// FOOTER
-.footer-container
-  height: 10vh
-  text-transform: uppercase
-  display: flex
-  flex-direction: row
-  flex-wrap: no-wrap
-  justify-content: space-around
-  align-items: center
-
-.footer-sections
-  text-align: center
-  width: 75%
-
-// List items
-ul li
-  list-style-type: none
-  display: inline-block
-  margin: 0 0.4rem
-  color: $footerSectionsColor
-
-  &:hover
-    cursor: pointer
-    font-weight: bold
-
-.footer-copyright
-  text-align: center
-  font-weight: bold
-  opacity: 0.6

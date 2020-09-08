@@ -15,3 +15,74 @@ body
   background-color: $bgColor
   font-family: $font-stack-main
   font-size: 0.8rem
+
+// Container width, padding and margin
+.posts-container
+  width: 600px
+  padding: 1rem 0
+  margin: 1rem auto
+
+// Post
+.post
+  font-size: 0.9rem
+  margin-bottom: 1rem
+  border: 1px solid $borderColor
+  border-radius: 3px
+  background-color: white
+
+.top-ribbon
+  padding: 1rem
+  display: flex
+  flex-wrap: nowrap
+  justify-content: space-between
+  align-items: center
+  border-bottom: 1px solid $borderColor
+
+.publisher-data
+  display: flex
+  flex-wrap: nowrap
+  justify-content: flex-start
+  align-items: center
+
+.publisher-data>div
+  margin-right: 1rem
+
+.profile-pic-wrapper-1
+  width: 39px
+  height: 39px
+  border-radius: 50%
+  background: linear-gradient(45deg, orange, purple)
+  .profile-pic-wrapper-2
+    width: 35px
+    height: 35px
+    border-radius: 50%
+    background: white
+    position: relative
+    left: 2px
+    top: 2px
+    .profile-pic
+      width: 31px
+      height: 31px
+      border-radius: 50%
+      position: relative
+      left: 2px
+      top: 2px
+      background-image: url(../img/post-profile-pic-1.jpg)
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+
+.information-wrapper
+  p
+    margin-bottom: 0.15rem
+
+.picture
+  height: 600px
+  background-image: url(../img/post-pic-1.jpg)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-bottom: 1px solid $borderColor
+
+.interactions
+  padding: 1rem

@@ -1,1 +1,69 @@
-// Dummy content
+// Variables
+$testColor1: red
+$testColor2: blue
+$testColor3: orange
+$testColor4: pink
+$testColor5: yellow
+$testColor6: green
+$testColor7: purple
+
+// Fonts
+$font-stack-main: 'Roboto', sans-serif
+$font-stack-alt: Helvetica, Arial
+
+// Reset
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+.wrapper
+  margin: 5vh auto
+
+.container
+  padding: 1rem
+  width: 90vw
+  margin: 0 auto
+
+.main-container
+  background-color: $testColor1
+  height: 80vh
+  display: flex
+  flex-direction: row
+  flex-wrap: no-wrap
+  justify-content: center
+  align-items: flex-start
+  align-content: center
+
+.main-content
+  width: 40%
+
+.content-left
+  background-color: $testColor2
+
+.content-right
+  background-color: $testColor3
+
+.footer-container
+  background-color: $testColor4
+  font-family: $font-stack-main
+  font-size: 0.8rem
+  height: 10vh
+  text-transform: uppercase
+  display: flex
+  flex-direction: row
+  flex-wrap: no-wrap
+  justify-content: space-around
+  align-items: center
+
+.footer-sections
+  background-color: $testColor5
+
+.footer-copyright
+  background-color: $testColor6
+  opacity: 0.7
+
+ul li
+  list-style-type: none
+  display: inline
+  margin: 0 0.3rem

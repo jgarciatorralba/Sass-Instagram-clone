@@ -273,7 +273,7 @@ body {
 }
 
 .fas.fa-heart {
-  color: #ed4956;
+  color: #ed4956 !important;
 }
 
 /*# sourceMappingURL=style-home.css.map */

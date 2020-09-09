@@ -70,10 +70,21 @@ body
       position: relative
       left: 2px
       top: 2px
+      &:hover
+        cursor: pointer
 
 .information-wrapper
   p
     margin-bottom: 0.15rem
+    &:hover
+      cursor: pointer
+  small
+    &:hover
+      cursor: pointer
+
+.more-options
+  &:hover
+    cursor: pointer
 
 // Profile picture and "stories" sign customization per post
 .post-1
@@ -110,6 +121,7 @@ body
 
 // Interactions section
 .interactions
+  border-bottom: 1px solid $borderColor
   padding: 1rem
 
   .icons
@@ -179,3 +191,23 @@ body
 
 .fas.fa-heart
   color: $likeHeartColor !important
+
+.new-comment
+  position: relative
+  input
+    width: 100%
+    outline: none
+    border: none
+    padding: 1rem 1rem 1rem 1rem
+  .post-new-comment
+    position: absolute
+    right: 1rem
+    bottom: 50%
+    transform: translateY(50%)
+    text-align: right
+    font-weight: bold
+    color: $bgInputSubmit
+    opacity: 0.3
+    &:hover
+      opacity: 1
+      cursor: pointer

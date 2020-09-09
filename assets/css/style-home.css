@@ -137,9 +137,22 @@ body {
   left: 2px;
   top: 2px;
 }
+.profile-pic-wrapper-1 .profile-pic-wrapper-2 .profile-pic:hover {
+  cursor: pointer;
+}
 
 .information-wrapper p {
   margin-bottom: 0.15rem;
+}
+.information-wrapper p:hover {
+  cursor: pointer;
+}
+.information-wrapper small:hover {
+  cursor: pointer;
+}
+
+.more-options:hover {
+  cursor: pointer;
 }
 
 .post-1 .profile-pic-wrapper-1 {
@@ -199,6 +212,7 @@ body {
 }
 
 .interactions {
+  border-bottom: 1px solid #dbdbdb;
   padding: 1rem;
 }
 .interactions .icons {
@@ -274,6 +288,30 @@ body {
 
 .fas.fa-heart {
   color: #ed4956 !important;
+}
+
+.new-comment {
+  position: relative;
+}
+.new-comment input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.new-comment .post-new-comment {
+  position: absolute;
+  right: 1rem;
+  bottom: 50%;
+  transform: translateY(50%);
+  text-align: right;
+  font-weight: bold;
+  color: #0095f6;
+  opacity: 0.3;
+}
+.new-comment .post-new-comment:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style-home.css.map */

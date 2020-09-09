@@ -149,7 +149,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../img/post-profile-pic-1.jpg");
+  background-image: url("../img/dummy-posts/post-profile-pic-1.jpg");
 }
 
 .post-2 .profile-pic-wrapper-1 {
@@ -159,7 +159,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../img/post-profile-pic-2.jpg");
+  background-image: url("../img/dummy-posts/post-profile-pic-2.jpg");
 }
 
 .post-3 .profile-pic-wrapper-1 {
@@ -169,7 +169,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../img/post-profile-pic-3.jpg");
+  background-image: url("../img/dummy-posts/post-profile-pic-3.jpg");
 }
 
 .picture {
@@ -181,21 +181,21 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../img/post-pic-1.jpg");
+  background-image: url("../img/dummy-posts/post-pic-1.jpg");
 }
 
 .post-2 .picture {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../img/post-pic-2.jpg");
+  background-image: url("../img/dummy-posts/post-pic-2.jpg");
 }
 
 .post-3 .picture {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../img/post-pic-3.jpg");
+  background-image: url("../img/dummy-posts/post-pic-3.jpg");
 }
 
 .interactions {

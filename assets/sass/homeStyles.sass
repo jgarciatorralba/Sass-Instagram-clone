@@ -35,11 +35,11 @@ body
 // Top ribbon section
 .top-ribbon
   padding: 1rem
+  border-bottom: 1px solid $borderColor
   display: flex
   flex-wrap: nowrap
   justify-content: space-between
   align-items: center
-  border-bottom: 1px solid $borderColor
 
 .publisher-data
   display: flex
@@ -91,3 +91,71 @@ body
 // Interactions section
 .interactions
   padding: 1rem
+
+  .icons
+    display: flex
+    flex-wrap: nowrap
+    justify-content: space-between
+    align-items: center
+    i
+      font-size: 24px
+      color: rgba(38, 38, 38, 1)
+      margin-right: 0.9rem
+      margin-bottom: 0.9rem
+      &:hover
+        cursor: pointer
+    .group-1
+      width: 125px
+      display: flex
+      flex-wrap: nowrap
+      justify-content: flex-start
+      align-items: center
+    .group-2
+      i
+        margin-right: 0
+      &:hover
+        opacity: 0.7
+
+  .likes
+    p
+      margin-bottom: 0.9rem
+    b
+      &:hover
+        cursor: pointer
+
+  .comments
+    .comment
+      margin-bottom: 0.6rem
+      display: flex
+      flex-wrap: nowrap
+      justify-content: space-between
+      align-items: center
+      .group-1
+        width: 95%
+        a
+          text-decoration: none
+          color: $commentMention
+        b
+          &:hover
+            cursor: pointer
+      .group-2
+        width: 5%
+        text-align: right
+        i
+          &:hover
+            cursor: pointer
+    .load-comments
+      color: $colorOrDivision
+      margin-bottom: 0.4rem
+      p
+        &:hover
+          cursor: pointer
+
+  .publication-date
+    small
+      font-size: 0.6rem
+      color: $colorOrDivision
+      text-transform: uppercase
+
+.fas.fa-heart
+  color: $likeHeartColor

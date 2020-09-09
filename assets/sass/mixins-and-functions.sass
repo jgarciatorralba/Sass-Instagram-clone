@@ -1,0 +1,8 @@
+// Helper mixins and functions to be used by other .sass files
+@mixin assignUrl($postPictures, $desiredType)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  @each $pictureType, $pictureUrl in $postPictures
+    @if $pictureType == $desiredType
+      background-image: url($pictureUrl)

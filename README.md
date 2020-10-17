@@ -1,4 +1,4 @@
-# 💊 Sass Instagram clone
+# Sass Instagram clone
 
 _Sass, HTML, CSS, Frontend_
 
